@@ -22,7 +22,7 @@ namespace CodeTheWay.Web.Ui.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("FirstName")
+                    b.Property<string>("FirstMidName")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("LastName")
